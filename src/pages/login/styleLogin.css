@@ -1,0 +1,191 @@
+
+
+:root{
+    --back-grey:#f3f3f3;
+    --txt-black:#353640;
+    --red:#e50914;
+    --border-right:#b8b8b8;
+}
+.lfooter{
+    background-color: var(--back-grey);
+}
+.logo2{
+    height: 100px;
+}
+.nav2{
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sign-in2{
+    margin-left: auto;
+    border: none;
+}
+.opac2{
+    color: #a0a2a6;
+    text-decoration: none;
+    font-weight: 500;
+}
+.main2{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+    gap:30px;
+}
+.input-div{
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+}
+.form-div{
+    padding: 30px;
+}
+form,.form-div{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+#em,#pa{
+    background-color: white;
+    color: var(--txt-black);
+    text-indent: 10px;
+    border: 1px solid var(--border-right);
+    border-radius: 5px;
+    font-size: 1.2rem;
+    padding: 4px 0;
+}
+.l2top{
+    align-self: center;
+}
+.form-p2,.ltitle2{
+    text-align: center;
+}
+.ltitle{
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+.bold{
+    font-size: 1rem;
+    font-weight: 600;
+}
+.form-div2{
+    padding: 20px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:20px;
+}
+.cont{
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+}
+.step3-div{
+    max-width: 1150px;
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+    padding: 0 20px;
+}
+.plan{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.next{
+    width: 100%;
+}
+.plan-offer{
+    color: var(--txt-black);
+    text-decoration: none;
+    list-style-type: disc;
+    font-size: 1rem;
+}
+.plan-offer:hover{
+    color: var(--txt-black);
+}
+.plan-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:15px;
+    position: relative;
+}
+.radio{
+    width: 20px;
+    position: absolute;
+    top: 18px;
+    left: -25px;
+}
+.radio:hover{
+    cursor: pointer;
+}
+.card{
+    min-height: 380px;
+    max-width: 190px;
+    padding: 15px 20px;
+    padding-left: 40px;
+    border: 2px dashed rgba(0,0,0,0.2);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap:25px;
+    transition: all 100ms ease-out;
+}
+.card:hover{
+    scale: 1.05;
+    border: 1px solid var(--txt-black);
+}
+.plan-cards-div{
+    height: max-content;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap:10px
+}
+.plan-top{
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    gap:2px;
+}
+.price-span{
+    font-size: 1rem;
+    text-decoration: line-through;
+    font-weight: 100;
+}
+.plan-title{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.ch2{
+    align-self: center;
+}
+.ch{
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.sign-in2{
+    background-color: var(--back-grey);
+    padding: 10px 17px;
+    border-radius: 5px;
+}
+.sign-in:hover{
+    opacity: .75;
+}
+.a{
+    font-size: .8rem;
+    text-decoration: none;
+    color: blue;
+}
+.plan-term{
+    color: var(--txt-black);
+    opacity: .6;
+}
