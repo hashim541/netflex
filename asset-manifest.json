@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/NETFLEX/static/css/main.51d4bacb.css",
+    "main.js": "/NETFLEX/static/js/main.82ae7ff9.js",
+    "static/media/background.jpg": "/NETFLEX/static/media/background.f3d4bc21340ed04c4bc9.jpg",
+    "static/media/kids.png": "/NETFLEX/static/media/kids.836efd88498e14ebed8e.png",
+    "static/media/tv.png": "/NETFLEX/static/media/tv.1f133190a8b539c41b40.png",
+    "static/media/all.png": "/NETFLEX/static/media/all.d565f25ae9441752cefd.png",
+    "static/media/mobile.png": "/NETFLEX/static/media/mobile.1ff4a238740c6440ca36.png",
+    "index.html": "/NETFLEX/index.html",
+    "main.51d4bacb.css.map": "/NETFLEX/static/css/main.51d4bacb.css.map",
+    "main.82ae7ff9.js.map": "/NETFLEX/static/js/main.82ae7ff9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.51d4bacb.css",
+    "static/js/main.82ae7ff9.js"
+  ]
+}
